@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+sword-dapp/node_modules/
+
+# Build outputs
+build/
+dist/
+sword-dapp/dist/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Move build artifacts
+move/build/
+**/build/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Package manager lock files (keep one, remove others if needed)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Sui CLI generated files
+.sui/
+
+# Large binary files
+move/target/
+move/sui-testnet-*.tgz
+move/external-crates/
